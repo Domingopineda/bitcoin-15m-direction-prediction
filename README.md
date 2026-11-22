@@ -45,6 +45,10 @@ Binance API ──► data_collection ──► data_cleaning ──► feature_
 
 **Evaluation metrics:** Accuracy, Precision, Recall, F1, ROC AUC, Brier Score, Log Loss, and the confusion matrix for every model.
 
+## Results (Recorded Evaluation)
+
+In the recorded evaluation, the best model reached approximately **51.3% accuracy** on the chronological test set. Fifteen-minute price direction is close to a coin flip by nature, so the edge is modest — and it is reported honestly. Model selection was based on probability quality (Brier score) rather than accuracy alone, and every model was compared against the dummy baseline.
+
 ## Project Structure
 
 ```
